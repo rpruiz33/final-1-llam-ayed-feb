@@ -322,7 +322,7 @@ if (lista->primero == NULL || strcmp(getNombre((ClientePtr)lista->primero->data)
     Nodo actual = lista->primero;
     Nodo anterior = NULL;
 
-    while (actual != NULL &&  strcmp(getNombre((ClientePtr)lista->primero->data), getNombre((ClientePtr)no->data))<0) {
+    while (actual != NULL &&  strcmp(getNombre((ClientePtr)actual->data), getNombre((ClientePtr)no->data))<0) {
 
         anterior = actual;
         actual = actual->proximo;
@@ -354,10 +354,10 @@ while(ordenar!=NULL){
 
         }
 
-siguiente=siguiente->proximo;
+        siguiente=siguiente->proximo;
 
 
-}
+    }
 ordenar = ordenar->proximo;
 }
 }
@@ -386,8 +386,7 @@ Lista duplicarLista(Lista l){
 if (l==NULL){
     return NULL;
 }
-Nodo aux=NULL;
-aux=l->primero;
+Nodo aux=l->primero;
 Lista listadupli=crearLista(sizeof (listadupli));
 while (aux!=NULL){
 

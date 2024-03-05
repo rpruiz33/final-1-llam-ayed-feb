@@ -15,7 +15,7 @@ struct Cliente{
 
 
 };
-
+typedef struct Cliente  * ClientePtr;
 
 ClientePtr crearCliente(char n[15], int c, int e, float g){
 

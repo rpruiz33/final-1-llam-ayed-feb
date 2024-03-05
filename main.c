@@ -40,15 +40,15 @@ int main(int argc, char *argv[]) {
     ClientePtr c4 = crearCliente("Leandro R.", 25000, 44, 3000000);
     ClientePtr c5 = crearCliente("Alejandra V.", 2560, 52, 1000);
 
-    insertarFinal(getLista(neg->l), c1);
+    insertarFinal((neg->l), &c1);
     printf("-----------1\n");
-    insertarFinal(getLista(neg->l), c2);
+    insertarFinal((neg->l), c2);
     printf("-----------2\n");
-    insertarFinal(getLista(neg->l), c3);
+    insertarFinal((neg->l), c3);
     printf("-----------3\n");
-    insertarFinal(getLista(neg->l), c4);
+    insertarFinal((neg->l), c4);
     printf("-----------4\n");
-    insertarFinal(getLista(neg->l), c5);
+    insertarFinal((neg->l), c5);
     printf("-----------5\n");
     mostrarNegocio(neg);
 

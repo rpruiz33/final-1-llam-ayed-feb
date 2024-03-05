@@ -29,7 +29,7 @@
 
 1707571556 c:\temp\delete\prog\final_prog_feb2024\lista.h
 
-1709132079 source:c:\users\beto\desktop\final_ayed_feb2024 (1)\final_prog_feb2024\cliente.c
+1709247733 source:c:\users\beto\desktop\final_ayed_feb2024 (1)\final_prog_feb2024\cliente.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -37,7 +37,7 @@
 
 1709068836 c:\users\beto\desktop\final_ayed_feb2024 (1)\final_prog_feb2024\cliente.h
 
-1709211349 source:c:\users\beto\desktop\final_ayed_feb2024 (1)\final_prog_feb2024\lista.c
+1709502051 source:c:\users\beto\desktop\final_ayed_feb2024 (1)\final_prog_feb2024\lista.c
 	"lista.h"
 	<stdlib.h>
 	<string.h>
@@ -46,7 +46,7 @@
 
 1709136662 c:\users\beto\desktop\final_ayed_feb2024 (1)\final_prog_feb2024\lista.h
 
-1709210829 source:c:\users\beto\desktop\final_ayed_feb2024 (1)\final_prog_feb2024\main.c
+1709502206 source:c:\users\beto\desktop\final_ayed_feb2024 (1)\final_prog_feb2024\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -54,10 +54,10 @@
 	"cliente.h"
 	"lista.h"
 
-1709150047 c:\users\beto\desktop\final_ayed_feb2024 (1)\final_prog_feb2024\negocio.h
+1709502169 c:\users\beto\desktop\final_ayed_feb2024 (1)\final_prog_feb2024\negocio.h
 	"lista.h"
 
-1709211290 source:c:\users\beto\desktop\final_ayed_feb2024 (1)\final_prog_feb2024\negocio.c
+1709502169 source:c:\users\beto\desktop\final_ayed_feb2024 (1)\final_prog_feb2024\negocio.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -65,7 +65,7 @@
 	"cliente.h"
 	"lista.h"
 
-1709085786 c:\users\beto\desktop\final_ayed_feb2024 (1)\final_prog_feb2024\negocio.c
+1709247846 c:\users\beto\desktop\final_ayed_feb2024 (1)\final_prog_feb2024\negocio.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

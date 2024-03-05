@@ -7,8 +7,6 @@
 
 
 
-
-
 NegocioPtr crearNegocio(char nom[15], char dir[15]) {
     NegocioPtr n = (NegocioPtr) malloc(sizeof(struct Negocio));
     if (n == NULL) {
@@ -19,7 +17,7 @@ NegocioPtr crearNegocio(char nom[15], char dir[15]) {
     strcpy(n->nombre, nom);
     strcpy(n->direccion, dir);
 
-n->l=(Lista)crearLista(sizeof(ClientePtr));
+n->l=crearLista(sizeof(n->l));
     return n;
 }
 
